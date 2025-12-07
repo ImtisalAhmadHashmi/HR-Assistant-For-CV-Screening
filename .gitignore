@@ -1,0 +1,18 @@
+# Environment variables (never commit this!)
+.env
+.env.local
+*.env
+
+# Docker (you said you want to ignore it)
+Dockerfile
+
+# Python virtual environment & cache (you definitely want these ignored)
+venv/
+.env/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
